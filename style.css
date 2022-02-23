@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 3.2vw;
+  font-weight: normal;
+  font-family: serif;
+  letter-spacing: 0.2vw;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f2f2;
+}
+
+.main {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 3.2vw;
+}
+
+.header {
+  padding: 3.2vw;
+  background-color: #ccaf66;
+  border-top-left-radius: 0.8vw;
+  border-top-right-radius: 0.8vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.controls button {
+  width: 4.8vw;
+  font-weight: bold;
+  font-family: monospace;
+  background-color: #f3f2f2;
+  border: none;
+  border-radius: 0.8vw;
+}
+
+.score h1 {
+  font-weight: bold;
+}
+
+.name h1 {
+  font-weight: bold;
+}
+
+.content {
+  padding: 3.2vw;
+  background-color: #dad9d7;
+  border-bottom-right-radius: 0.8vw;
+  border-bottom-left-radius: 0.8vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.tower {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.post {
+  width: 2vw;
+  height: 28vw;
+  background-color: #a9a5a2;
+  border-top-left-radius: 0.8vw;
+  border-top-right-radius: 0.8vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.base {
+  width: 24vw;
+  height: 4vw;
+  background-color: #a9a5a2;
+  border-top-left-radius: 0.8vw;
+  border-top-right-radius: 0.8vw;
+}
+
+.disk {
+  height: 4vw;
+  background-color: #ccaf66;
+  border-radius: 0.8vw;
+  margin-bottom: 0.4vw;
+}
+
+.disk0 {
+  width: 6vw;
+}
+
+.disk1 {
+  width: 9vw;
+}
+
+.disk2 {
+  width: 12vw;
+}
+
+.disk3 {
+  width: 15vw;
+}
+
+.disk4 {
+  width: 18vw;
+}
+
+.disk5 {
+  width: 21vw;
+}
+
+.footer {
+  padding-top: 1.6vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.reset {
+  font-weight: bold;
+  padding: 1.6vw 3.2vw;
+  background-color: #ccaf66;
+  border: none;
+  border-radius: 0.8vw;
+}
+
+.credits span {
+  font-size: 2.8vw;
+}
+
+@media only screen and (min-width: 500px) {
+  * {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+
+  .main {
+    padding: 16px;
+  }
+
+  .header {
+    padding: 16px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+
+  .controls button {
+    width: 24px;
+    border-radius: 4px;
+  }
+
+  .content {
+    padding: 16px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+
+  .post {
+    width: 10px;
+    height: 140px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+
+  .base {
+    width: 120px;
+    height: 20px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+
+  .disk {
+    height: 20px;
+    border-radius: 4px;
+    margin-bottom: 2px;
+  }
+
+  .disk0 {
+    width: 30px;
+  }
+
+  .disk1 {
+    width: 45px;
+  }
+
+  .disk2 {
+    width: 60px;
+  }
+
+  .disk3 {
+    width: 75px;
+  }
+
+  .disk4 {
+    width: 90px;
+  }
+
+  .disk5 {
+    width: 105px;
+  }
+
+  .footer {
+    padding-top: 8px;
+  }
+
+  .reset {
+    padding: 8px 16px;
+    border-radius: 4px;
+  }
+
+  .credits span {
+    font-size: 14px;
+  }
+}
